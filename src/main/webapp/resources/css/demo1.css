@@ -1,0 +1,96 @@
+@font-face {
+	font-family: 'arrows';
+	src:url('../fonts/arrows/arrows.eot');
+	src:url('../fonts/arrows/arrows.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/arrows/arrows.woff') format('woff'),
+		url('../fonts/arrows/arrows.ttf') format('truetype'),
+		url('../fonts/arrows/arrows.svg#arrows') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.bb-custom-wrapper {
+	width: 1150px;
+	height: 700px;
+	position: absolute;
+	top: 150px;
+	left: 74px;
+	text-align: center;
+}
+
+.bb-custom-wrapper .bb-bookblock {
+	-webkiCt-box-shadow: 13px 14px 20px 2px rgba(0,0,0,0.83);
+	
+	
+}
+
+.bb-custom-wrapper h3 {
+	font-size: 1.4em;
+	font-weight: 300;
+	margin: 0.4em 0 1em;
+}
+
+.bb-custom-wrapper nav {
+	position: absolute;
+	top: 523px;
+	left: 509px;
+	z-index: 0;
+	text-align: center;
+}
+
+
+#bb-nav-next{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	background-image: url("../img/nextBtn.png");
+}
+#bb-nav-prev{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	background-image: url("../img/preBtn.png");
+}
+
+.bb-custom-wrapper nav a:hover {
+	opacity: 0.6;
+}
+
+.bb-custom-icon:before {
+	
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	font-size: 20px;
+	line-height: 30px;
+	display: block;
+	-webkit-font-smoothing: antialiased;
+}
+
+.bb-custom-icon-first:before,
+.bb-custom-icon-last:before {
+	content: "\e002";
+}
+
+.bb-custom-icon-arrow-left:before,
+.bb-custom-icon-arrow-right:before {
+	content: "\e003";
+}
+
+.bb-custom-icon-arrow-left:before,
+.bb-custom-icon-first:before {
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+/* No JS */
+.no-js .bb-custom-wrapper {
+	height: auto;
+}
+
+.no-js .bb-custom-content {
+	height: 470px;
+}
